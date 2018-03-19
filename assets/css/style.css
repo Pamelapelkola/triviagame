@@ -16,3 +16,12 @@ div{
     text-align: center;
     color:red;
 }
+span{
+    color:white;
+    font-size: 48px;
+    background-color: red;
+    float: right;
+}
+#startButton{
+    font-size: 48px;
+}

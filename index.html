@@ -27,39 +27,55 @@
             </div>
         </div>
     </div>
-    <div id="timer">
-    </div>
+    <span id="timer">
+    </span>
+   <br><br><br><br>
 
-    <div id="trivia" class="q1">
+    <div id="trivia">
     </div>
-    <div id="answer" class="a1">
+    <div class="q1">
+    </div>
+    <form class="a1">
+        <input type="radio" name="choice" id="a1_A">A. Tony Oliva<br>
+        <input type="radio" name="choice" id="a1_B">B. Roy Sievers<br>
+        <input type="radio" name="choice" id="a1_C">C. Gary Gaetti<br>
+        <input type="radio" name="choice" id="a1_D">D. Harmon Killebrew<br>
     </div><br>
     <div id="trivia" class="q2">
     </div>
-    <div id="answer" class="a2">
+    <form class="a2">
+            <input type="radio" name="choice" value="A">A. 1965<br>
+            <input type="radio" name="choice" value="B">B. 1991<br>
+            <input type="radio" name="choice" value="C">C. 2002<br>
+            <input type="radio" name="choice" value="D">D. 1970<br>
     </div><br>
     <div id="trivia" class="q3">
     </div>
-    <div id="answer" class="a3">
+    <form class="a3">
+            <input type="radio" name="choice" value="A"> A. Camilo Pascual<br>
+            <input type="radio" name="choice" value="B">B. Jim Kaat<br>
+            <input type="radio" name="choice" value="C">C. Frank Viola<br>
+            <input type="radio" name="choice" value="D">D. Bert Blyleven<br>
     </div><br>
     <div id="trivia" class="q4">
     </div>
-    <div id="answer" class="a4">
+    <form class="a4">
+            <input type="radio" name="choice" value="A"> A.1988<br>
+            <input type="radio" name="choice" value="B">B. 1991<br>
+            <input type="radio" name="choice" value="C">C. 1990<br>
+            <input type="radio" name="choice" value="D">D. 1992<br>
     </div><br>
     <div id="trivia" class="q5">
     </div>
-    <div id="answer" class="a5">
-    </div><br>
-    <div id="trivia" class="q6">
-    </div>
-    <div id="answer" class="a6">
-    </div><br>
-    </div>
-
-
-
-
-
+    <form class="a5">
+            <input type="radio" name="choice1" value="A"> A. Harmon Killebrew<br>
+            <input type="radio" name="choice2" value="B">B. Kirby Puckett<br>
+            <input type="radio" name="choice3" value="C">C. Rod Carew<br>
+            <input type="radio" name="choice4" value="D">D. Tony Oliva
+            <br><br>
+            <input type="submit" value="submit" onclick="test(this.form)">
+    </form>
+    
 
     <script type='text/javascript' src="./assets/javascript/app.js">
     </Script>
