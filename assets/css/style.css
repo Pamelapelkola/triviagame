@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+
+header{
+    font-size: 75px;
+    font-family:'Noto Serif', serif;
+    color:white;
+}
+div{
+    color:white;
+}
+.q1, .q2, .q3, .q4, .q5{
+    text-align: center;
+}
+.a1, .a2, .a3, .a4, .a5{
+    text-align: center;
+    color:red;
+}
